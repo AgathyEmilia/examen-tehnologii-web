@@ -1,0 +1,23 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "sample.db",
+    "define": {
+      "timestamps": false
+    }
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "sample.db",
+    "define": {
+      "timestamps": false
+    }
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "sample.db",
+    "define": {
+      "timestamps": false
+    }
+  }
+}
